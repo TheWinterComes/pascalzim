@@ -26,6 +26,6 @@ else
    if (v_idade >= 14) and (v_idade <= 17) then
           v_categoria:='Juvenil B'
 else
-          v_categoria := 'Sênior'
+          v_categoria := 'Sênior';
 writeln('A categoria do nadador é :', v_categoria);
 end.
