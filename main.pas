@@ -9,11 +9,11 @@ Write your code in this editor and press "Run" button to execute it.
 
 program ClassificarNadador;
 var
-v_idade: integer;
-v_categoria : string [15]
+   v_idade: integer;
+   v_categoria : string [15];
 begin
-write('Digite a idade do nadador: ');
-readln(v_idade);
+   writeln('Digite a idade do nadador: ');
+   readln(v_idade);
    if (v_idade >= 5) and (v_idade <= 7) then
            v_categoria:='Infantil A'
 else 
