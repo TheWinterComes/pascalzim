@@ -6,17 +6,16 @@ Write your code in this editor and press "Run" button to execute it.
 
 }
 
-
 program CalcularAreaTriangulo;
 var
-base, altura, area: real;
+   v_base, v_altura, v_area: real;
 begin
-write('Digite o valor da base do triângulo: ');
-readln(base);
-write('Digite o valor da altura do triângulo: ');
-readln(altura);
+   writeln('Digite o valor da base : ');
+   readln(v_base);
+   writeln('Digite o valor da altura : ');
+   readln(v_altura);
 
-area := base * altura / 2;
+   v_area := v_base * v_altura / 2;
 
-writeln('A área do triângulo é: ', area:0:2);
+   writeln('A área é: ', v_area:0:2);
 end.
